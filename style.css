@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0px;
+    border: border-box;
+}
+
+#about{
+    background-color: blueviolet;
+    color: white;
+    font-family: system-ui;
+    font-size: 10px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about p{
+    width: 40rem;
+    font-size: 16px;
+}
