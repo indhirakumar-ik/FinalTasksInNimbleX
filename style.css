@@ -3,7 +3,32 @@
     padding: 0px;
     border: border-box;
 }
-
+.navbar{
+    display: flex;
+    gap: 12px;
+    font-size: 26px;
+    border: 2px solid;
+    margin: 7px;
+    border-radius: 10px;
+    align-content: stretch;
+    justify-content: center;
+    /* align-items: baseline; */
+    flex-wrap: nowrap;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: system-ui;
+    transition: 1s cubic-bezier(0.42, 0, 0.64, 0.75);
+}
+.navbar a:hover{
+    background: aquamarine;
+    border: 2px solid;
+    border-radius: 13px;
+    padding: 1px;
+    transform: scale(1.2);
+}
 #about{
     background-color: blueviolet;
     color: white;
@@ -18,4 +43,23 @@
 #about p{
     width: 40rem;
     font-size: 16px;
+}
+.ulli{
+    
+}
+#genres{
+    margin-left: 35px;
+    font-size: 20px;
+}
+header{
+    
+    text-align: center;
+    border: 3px solid;
+    /* width: 33rem; */
+    padding: 12px;
+    background: bisque;
+    font-family: math;
+    border-radius: 16px;
+    font-size: 36px;
+
 }
