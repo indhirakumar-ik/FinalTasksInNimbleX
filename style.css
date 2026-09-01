@@ -64,6 +64,34 @@ h2{
 #genres{
     margin-left: 35px;
     font-size: 20px;
+    background-color: cadetblue;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    margin: 18px;
+    border-radius: 10px;
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.ulli{
+    margin-left: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    border: 6px solid white;
+    border-radius: 13px;
+    text-align: center;
+}
+.ulli li{
+    border: 1px solid;
+    padding: 13px;
+    margin: 22px;
+    font-family: math;
+    border-radius: 10px;
+}
+.genresContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-around;
 }
 header{
     
