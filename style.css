@@ -105,3 +105,24 @@ header{
     font-size: 36px;
 
 }
+
+#contacts{
+    margin: 31px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkturquoise;
+    border-radius: 20px;
+}
+
+#contacts table{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+input {
+     padding: 3px;
+     border: 2px solid;
+}
+textarea{
+    padding: 10px;
+    width: 328px;
+}
